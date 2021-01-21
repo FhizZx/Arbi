@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Arburi" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Arburi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Arburi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="src/bud.h" />
+		<Unit filename="src/flower.h" />
+		<Unit filename="src/leaf.cpp" />
+		<Unit filename="src/leaf.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/plant.cpp" />
+		<Unit filename="src/plant.h" />
+		<Unit filename="src/plant_part.cpp" />
+		<Unit filename="src/plant_part.h" />
+		<Unit filename="src/pollen.h" />
+		<Unit filename="src/raymath.h" />
+		<Unit filename="src/rule.h" />
+		<Unit filename="src/stem.cpp" />
+		<Unit filename="src/stem.h" />
+		<Unit filename="src/sun.h" />
+		<Unit filename="src/turtle.cpp" />
+		<Unit filename="src/turtle.h" />
+		<Unit filename="src/world.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
