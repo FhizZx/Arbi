@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Arburi" />
+		<Option title="Arbi" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -32,24 +32,23 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="src/bud.h" />
-		<Unit filename="src/flower.h" />
+		<Unit filename="src/bud.hpp" />
+		<Unit filename="src/flower.hpp" />
 		<Unit filename="src/leaf.cpp" />
-		<Unit filename="src/leaf.h" />
+		<Unit filename="src/leaf.hpp" />
 		<Unit filename="src/main.cpp" />
 		<Unit filename="src/plant.cpp" />
-		<Unit filename="src/plant.h" />
+		<Unit filename="src/plant.hpp" />
 		<Unit filename="src/plant_part.cpp" />
-		<Unit filename="src/plant_part.h" />
-		<Unit filename="src/pollen.h" />
-		<Unit filename="src/raymath.h" />
-		<Unit filename="src/rule.h" />
+		<Unit filename="src/plant_part.hpp" />
+		<Unit filename="src/pollen.hpp" />
+		<Unit filename="src/rule.hpp" />
 		<Unit filename="src/stem.cpp" />
-		<Unit filename="src/stem.h" />
-		<Unit filename="src/sun.h" />
+		<Unit filename="src/stem.hpp" />
+		<Unit filename="src/sun.hpp" />
 		<Unit filename="src/turtle.cpp" />
-		<Unit filename="src/turtle.h" />
-		<Unit filename="src/world.h" />
+		<Unit filename="src/turtle.hpp" />
+		<Unit filename="src/world.hpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
